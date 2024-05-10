@@ -4,9 +4,9 @@ import Navbar from "../components/shared/Navbar";
 export default function MasterPricePage() {
   return (
     <>
-      {/* Navbar  */}
+      {/* Navbar  - Shared/Common Component*/}
       <Navbar />
-      {/* Page Title Shared Component */}
+      {/* Master Price Component */}
       <MasterPrice />
     </>
   );
