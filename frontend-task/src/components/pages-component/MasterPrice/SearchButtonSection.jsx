@@ -28,7 +28,7 @@ export default function SearchButtonSection({ handleSearch }) {
       <div className="flex items-center">
         {/* Search Button  */}
         <button
-          className="bg-[#00215E] py-2 px-3 text-white text-xs"
+          className="bg-blue-900 py-2 px-3 text-white text-xs"
           onClick={handleSearch}
         >
           SEARCH
