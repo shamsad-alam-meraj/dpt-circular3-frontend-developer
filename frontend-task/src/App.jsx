@@ -1,4 +1,4 @@
-import SearchFormPage from "./pages/SearchFormPage";
+import SearchFormPage from "./pages/MasterPricePage";
 
 function App() {
   return (
