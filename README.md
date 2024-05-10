@@ -8,7 +8,7 @@
 
 ### Time Spent:
 
-I spent approximately 4 hours to complete this project.
+I spent approximately 5 hours to complete this project.
 
 ### Best Practices Implemented:
 
@@ -20,10 +20,10 @@ I spent approximately 4 hours to complete this project.
 
 ### Live Frontend Projects:
 
-1. Project 1 Link: 
-2. Project 2 Link: 
+1. [Boi Exchange](https://boi-exchange-web.web.app/)
+2. [Electrix Manufacturer](https://electric-manufacturing.web.app/)
 
 ### Personal Git Repositories:
 
-1. Repository 1 Link: 
-2. Repository 2 Link: 
+1. [Repository 1](https://github.com/shamsad-alam-meraj/boi-exchange-client)
+2. [Repository 2](https://github.com/meraj191-35-2735/electric-manufacture-client)
