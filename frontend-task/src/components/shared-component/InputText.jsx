@@ -5,7 +5,7 @@ export default function InputText({ placeholder }) {
     <input
       type="text"
       onChange={() => {}}
-      className="appearance-none border border-black rounded p-2 text-lg h-12 w-52"
+      className="appearance-none border border-black rounded p-2 text-lg h-12"
       placeholder={placeholder}
     />
   );

@@ -1,5 +1,5 @@
 import MasterPrice from "../components/pages-component/MasterPrice";
-import Navbar from "../components/shared/Navbar";
+import Navbar from "../components/shared-component/Navbar";
 
 export default function MasterPricePage() {
   return (

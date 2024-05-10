@@ -4,11 +4,11 @@
 2. Navigate to the project directory.
 3. Install dependencies by running `npm install` or `yarn install`.
 4. Start the development server by running `npm run dev` or `yarn run dev`.
-5. Open your web browser and visit `http://localhost:5173` to view the application.
+5. Open your web browser and visit `http://localhost:5173/` to view the application.
 
 ### Time Spent:
 
-I spent approximately [4] hours to complete this project.
+I spent approximately 4 hours to complete this project.
 
 ### Best Practices Implemented:
 

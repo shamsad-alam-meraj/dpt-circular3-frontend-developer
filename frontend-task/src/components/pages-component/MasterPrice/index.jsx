@@ -1,6 +1,6 @@
 import { useState } from "react";
-import Loader from "../../shared/Loader";
-import PageTitle from "../../shared/PageTitle";
+import Loader from "../../shared-component/Loader";
+import PageTitle from "../../shared-component/PageTitle";
 import FlightList from "./FlightList";
 import SearchButtonSection from "./SearchButtonSection";
 import SearchFilter from "./SearchFilter";
