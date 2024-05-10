@@ -40,7 +40,7 @@ export default function MasterPrice() {
         {/* Success Message Section  */}
         {successMessage && <p>{successMessage}</p>}
         {/* List Table Section  */}
-        <FlightList flights={flights} />
+        {flights?.length > 0 && <FlightList flights={flights} />}
       </div>
       {/* Loader Section  */}
       {loading ? <Loader /> : null}

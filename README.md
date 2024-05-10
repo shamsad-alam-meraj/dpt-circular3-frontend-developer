@@ -1,30 +1,29 @@
-# Assessment test for Frontend Developer
+### How to Run the Project:
 
-1. Fork this repository.
-2. Clone this repository to your local machine.
-3. Check data and image folder.
-4. Follow the image first. There is a search form and formated data.
-5. You need to create a flight search form with HTML, CSS and Tailwind CSS.
-6. On form submit get the json data privided inside data folder.
-7. Parse and show your data according to the image provided.
+1. Clone this repository from GitHub.
+2. Navigate to the project directory.
+3. Install dependencies by running `npm install` or `yarn install`.
+4. Start the development server by running `npm run dev` or `yarn run dev`.
+5. Open your web browser and visit `http://localhost:5173` to view the application.
 
-==============================================================
+### Time Spent:
 
--   Follow https://flightexpert.com or https://gozayaan.com to understand what are we doing.
--   Do not copy Flight Expert or Go Zayaan, just get idea and follow the image we have given.
--   LHR = Heathrow Airport, CDG = Paris Charles de Gaulle Airport.
--   You do not need to make the form dynamic or filter anything, Just parse the data.
+I spent approximately [4] hours to complete this project.
 
-==============================================================
+### Best Practices Implemented:
 
--   Complete this task using fresh laravel/Vue JS/React JS or any other language.
--   Update your readme file how can we run the proejct.
--   Mention how much time have you spent for this to complete.
--   Mention the best practices you've implemented in your code.
--   Provide URLs for two of your live frontend projects.
--   Share links to your top two personal Git repositories.
+- Modular Component Structure: Components are organized into smaller, reusable pieces for better maintainability and scalability.
+- PropTypes Validation: PropTypes are used to validate component props, ensuring type safety and helping catch errors early.
+- Conditional Rendering: Conditional rendering techniques are utilized to efficiently display different UI elements based on certain conditions.
+- Destructuring: ES6 destructuring is used to extract values from objects and arrays, improving code readability.
+- Key Usage: Keys are used appropriately when rendering dynamic lists to help React identify which items have changed, been added, or been removed.
 
-==============================================================
+### Live Frontend Projects:
 
--   Upload your code on github and send us link.
--   Video guideline:- https://www.loom.com/share/87a2a73e58484f18b08b47ad5af55e99
+1. Project 1 Link: 
+2. Project 2 Link: 
+
+### Personal Git Repositories:
+
+1. Repository 1 Link: 
+2. Repository 2 Link: 

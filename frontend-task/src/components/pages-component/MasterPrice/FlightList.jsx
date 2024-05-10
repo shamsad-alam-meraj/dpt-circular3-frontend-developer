@@ -27,7 +27,10 @@ export default function FlightList({ flights }) {
           >
             <td>
               {flight?.itineraries?.map((itinerary, itineraryIndex) => (
-                <div key={itineraryIndex}>
+                <div
+                  className="flex items-center justify-center flex-col"
+                  key={itineraryIndex}
+                >
                   {itinerary?.segments?.map((segment, segmentIndex) => (
                     <p key={segmentIndex}>
                       <span>
@@ -40,7 +43,7 @@ export default function FlightList({ flights }) {
             </td>
             <td>
               {flight?.itineraries?.map((itinerary, itineraryIndex) => (
-                <div key={itineraryIndex}>
+                <div className="flex items-center justify-center flex-col" key={itineraryIndex}>
                   {itinerary?.segments?.map((segment, segmentIndex) => (
                     <p key={segmentIndex}>
                       <span>{segment?.flightNumber}</span>
@@ -51,7 +54,7 @@ export default function FlightList({ flights }) {
             </td>
             <td>
               {flight?.class?.map((cls, clsIndex) => (
-                <div key={clsIndex}>
+                <div className="flex items-center justify-center flex-col" key={clsIndex}>
                   {cls?.map((cl, index) => (
                     <p key={index}>{cl}</p>
                   ))}
@@ -60,7 +63,7 @@ export default function FlightList({ flights }) {
             </td>
             <td>
               {flight?.fareBasis?.map((fare, fareIndex) => (
-                <div key={fareIndex}>
+                <div className="flex items-center justify-center flex-col" key={fareIndex}>
                   {fare?.map((fr, index) => (
                     <p key={index}>{fr}</p>
                   ))}
@@ -69,7 +72,7 @@ export default function FlightList({ flights }) {
             </td>
             <td>
               {flight?.itineraries?.map((itinerary, itineraryIndex) => (
-                <div key={itineraryIndex}>
+                <div className="flex items-center justify-center flex-col" key={itineraryIndex}>
                   {itinerary?.segments?.map((segment, segmentIndex) => (
                     <p key={segmentIndex}>
                       <span>
@@ -83,7 +86,7 @@ export default function FlightList({ flights }) {
             </td>
             <td>
               {flight?.itineraries?.map((itinerary, itineraryIndex) => (
-                <div key={itineraryIndex}>
+                <div className="flex items-center justify-center flex-col" key={itineraryIndex}>
                   {itinerary?.segments?.map((segment, segmentIndex) => (
                     <p key={segmentIndex}>
                       <span>{segment?.departure?.at}</span>
@@ -94,7 +97,7 @@ export default function FlightList({ flights }) {
             </td>
             <td>
               {flight?.itineraries?.map((itinerary, itineraryIndex) => (
-                <div key={itineraryIndex}>
+                <div className="flex items-center justify-center flex-col" key={itineraryIndex}>
                   {itinerary?.segments?.map((segment, segmentIndex) => (
                     <p key={segmentIndex}>
                       <span>{segment?.arrival?.at}</span>
@@ -109,13 +112,14 @@ export default function FlightList({ flights }) {
             </td>
             <td>
               {flight?.itineraries?.map((itinerary, itineraryIndex) => (
-                <div key={itineraryIndex}>
+                <div className="flex items-center justify-center flex-col" key={itineraryIndex}>
                   <p>{itinerary?.duration}</p>
+                  <div></div>
                 </div>
               ))}
             </td>
             <td>
-              <div className="flex flex-col justify-center items-center">
+              <div className="flex items-center justify-center flex-col">
                 {flight?.price}
                 <button className="btn btn-xs bg-blue-950 rounded-sm px-3 text-xs font-bold text-white py-1">
                   SELECT
