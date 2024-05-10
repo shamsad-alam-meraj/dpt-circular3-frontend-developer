@@ -1,4 +1,4 @@
-import PropTypes from 'prop-types';
+import PropTypes from "prop-types";
 
 export default function SearchButtonSection({ handleSearch }) {
   return (
@@ -12,7 +12,7 @@ export default function SearchButtonSection({ handleSearch }) {
         </label>
       </div>
       {/* Middle Part  */}
-      <div className="flex">
+      <form className="flex">
         <h3 className="mr-2">Environment</h3>
         {/* Radio Buttons  */}
         <input checked type="radio" name="dummy" id="dummy" />
@@ -23,7 +23,7 @@ export default function SearchButtonSection({ handleSearch }) {
         <label className="ml-2" htmlFor="pdt">
           PDT
         </label>
-      </div>
+      </form>
       {/* Last Part  */}
       <div>
         {/* Search Button  */}
