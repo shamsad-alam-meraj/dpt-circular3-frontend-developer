@@ -6,6 +6,7 @@ export default function MasterPricePage() {
     <>
       {/* Navbar  */}
       <Navbar />
+      {/* Page Title Shared Component */}
       <MasterPrice />
     </>
   );

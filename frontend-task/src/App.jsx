@@ -1,9 +1,9 @@
-import SearchFormPage from "./pages/MasterPricePage";
+import MasterPricePage from "./pages/MasterPricePage";
 
 function App() {
   return (
     <>
-      <SearchFormPage />
+      <MasterPricePage />
     </>
   );
 }
